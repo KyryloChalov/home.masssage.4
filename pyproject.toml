@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "home-masssage-4"
+version = "4.1.0"
+description = "site home.masssage"
+authors = ["Kyrylo Chalov <ks7977166@gmail.com>"]
+readme = "README.md"
+packages = [{include = "home"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
